@@ -16,7 +16,7 @@ The data is sourced from the Kaggle dataset:
 ## 🚀 Live Demo
 
 You can try the app live at:  
-[https://oda-campusx.herokuapp.com/](https://oda-campusx.herokuapp.com/)  
+[[https://oda-campusx.herokuapp.com/](https://oda-campusx.herokuapp.com/)  ](https://olympic-data-analysis-pranjaldtu.streamlit.app/)]
 
 ---
 

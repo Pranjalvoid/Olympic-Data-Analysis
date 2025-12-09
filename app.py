@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.figure_factory as ff
 
-df = pd.read_csv('athlete_events.csv')
-region_df = pd.read_csv('noc_regions.csv')
+df = pd.read_csv("https://huggingface.co/datasets/pranjalvoid/olympics-dataset/resolve/main/athlete_events.csv")
+region_df = pd.read_csv("https://huggingface.co/datasets/pranjalvoid/olympics-dataset/resolve/main/noc_regions.csv")
 
 df = preprocessor.preprocess(df,region_df)
 
@@ -172,6 +172,7 @@ if user_menu == 'Athlete wise Analysis':
     fig = px.line(final, x="Year", y=["Male", "Female"])
     fig.update_layout(autosize=False, width=1000, height=600)
     st.plotly_chart(fig)
+
 
 
 

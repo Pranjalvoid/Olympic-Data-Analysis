@@ -24,8 +24,8 @@ You can try the app live at:
 
 - Python  
 - Streamlit — for building the web UI  
-- pandas / numpy (or appropriate data-processing libraries) — for data analysis  
-- (Any other libraries you used — e.g. visualization libs like matplotlib / seaborn / plotly)  
+- pandas / numpy  — for data analysis  
+- matplotlib , seaborn , plotly - for visualization
 
 ## 🧑‍💻 Getting Started — Run Locally
 
